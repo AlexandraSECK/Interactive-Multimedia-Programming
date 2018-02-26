@@ -1,0 +1,25 @@
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+p {
+  padding: 0.6em;
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: justify;
+}
+
+span {
+  font-weight: bold;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 15px;
+}

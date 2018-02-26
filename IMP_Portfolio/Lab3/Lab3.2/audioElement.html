@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="../../nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../../navbar.css">
+    <title>Lab 3</title>
+  </head>
+  <body>
+    <header>Assignement 3 : Audio Element</header>
+    <div class="topnav" id="myTopnav">
+      <a href="../../index.html">Home</a>
+      <a href="../../synthesis.html">Synthesis</a>      
+      <div class="dropdown">
+        <button class="dropbtn">Assignments
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../../Lab1/index.html">Lab 1</a>
+          <a href="../../Lab2/questions.html">Lab 2</a>
+          <a href="../../Lab4/Lab4.1/index.html">Lab 4</a>
+          <a href="../../Lab5/questions.html">Lab 5</a>
+          <a href="../../Lab6/index.html">Lab 6</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Lab 3
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href=../chat.html>Chat</a>
+          <a href=../Lab3.1/MVCPersonList.html>Person List Storage</a>
+        </div>
+      </div>
+      <a class="icon" href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div class="bloc">
+      <figure id="audioplayer">
+        <audio src="http://stream.basso.fi:8000/stream" id="audiotrack"></audio>
+        <button id="play" onclick="play()">PLAY</button>
+        <button id="pause" onclick="pause()">PAUSE</button>
+        <input id="volume" type="range" min="0" max="1.0" step="0.1" value= "1" ></input>
+        <div id="volumeValue" class="connect"></div>
+      </figure>
+    </div>
+  </body>
+  <script type="text/javascript" src="audio.js"></script>
+</html>

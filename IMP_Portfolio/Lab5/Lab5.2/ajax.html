@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="../../nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../../navbar.css">
+    <title> Lab 5 </title>
+  </head>
+  <body>
+    <header>Assignment 5: Load with Ajax</header>
+    <div class="topnav" id="myTopnav">
+      <a href="../../index.html">Home</a>
+      <a href="../../synthesis.html">Synthesis</a>
+      <div class="dropdown">
+        <button class="dropbtn">Assignements
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../../Lab1/index.html">Lab 1</a>
+          <a href="../../Lab2/questions.html">Lab 2</a>
+          <a href="../../Lab3/index.html">Lab 3</a>
+          <a href="../../Lab4/Lab4.1/index.html">Lab 4</a>
+          <a href="../../Lab6/index.html">Lab 6</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Lab 5
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../questions.html">Questions</a>
+          <a href=../Lab5.1/MVCListPerson.html>jQuery Person List </a>
+        </div>
+      </div>
+      <a class="icon" href="javascript:void(0);" style="font-size:15px;"  onclick="myFunction()">&#9776;</a>
+    </div>
+    <h1> Person List</h1>
+    <div id="list"></div>
+    <button id="button">Load with ajax </button>
+  </body>
+</html>

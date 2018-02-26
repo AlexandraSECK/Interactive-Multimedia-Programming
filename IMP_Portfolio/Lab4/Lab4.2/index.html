@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="../../nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Lab4.1/style.css">
+    <link rel="stylesheet" type="text/css" href="../../navbar.css">
+    <title>Lab 4</title>
+  </head>
+  <body id="body">
+    <header>Assignment 4 : Canvas 2</header>
+    <div class="topnav" id="myTopnav">
+      <a href="../../index.html">Home</a>
+      <a href="../../synthesis.html">Synthesis</a>
+      <div class="dropdown">
+        <button class="dropbtn">Assignments
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../../Lab1/index.html">Lab 1</a>
+          <a href="../../Lab2/questions.html">Lab 2</a>
+          <a href="../../Lab3/chat.html">Lab 3</a>
+          <a href="../../Lab5/questions.html">Lab 5</a>
+          <a href="../../Lab6/index.html">Lab 6</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Lab 4
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Lab4.1/index.html">Canvas 1</a>
+          <a href="../Lab4.3/index.html">Game</a>
+        </div>
+      </div>
+      <a class="icon" href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div class="can">
+      <canvas id="drawCanvas" style="background-color: lightgrey;" onmousedown="canvasClicked(event)" onmousemove="canvasMoved(event)" onmouseup="canvasUp(event)" onmouseout="canvasUp(event)"></canvas>
+    </div>
+  </body>
+  <script src="can.js"></script>
+</html>

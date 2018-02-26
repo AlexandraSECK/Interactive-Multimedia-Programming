@@ -1,0 +1,24 @@
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+p {
+  padding: 0.6em;
+  font-family: verdana;
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: justify;
+}
+
+span {
+  font-weight: bold;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 15px;
+}

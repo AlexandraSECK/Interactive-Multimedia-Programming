@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <script src="../nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="../navbar.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lab 1</title>
+  </head>
+  <body>
+    <header>Assignment 1 : Person List</header>
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html">Home</a>
+      <a href="../synthesis.html">Synthesis</a>      
+      <div class="dropdown">
+        <button class="dropbtn">Assignments
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Lab2/questions.html">Lab 2</a>
+          <a href="../Lab3/chat.html">Lab 3</a>
+          <a href="../Lab4/Lab4.1/index.html">Lab 4</a>
+          <a href="../Lab5/questions.html">Lab 5</a>
+          <a href="../Lab6/index.html">Lab 6</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Lab 1
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href=./index.html>Questions</a>
+          <a href="./Lab1.1/MVCPersonList.html">MVC version</a>
+        </div>
+      </div>
+      <a class="icon" href="javascript:void(0);" style="font-size:15px;"  onclick="myFunction()">&#9776;</a>
+    </div>
+    <br>
+    Name:
+    <input id="name" type="text" name="name" placeholder="name" >
+    <button class="add" onclick="addPerson()">Add Person</button>
+    <p id="list"> </p>
+  </body>
+</html>

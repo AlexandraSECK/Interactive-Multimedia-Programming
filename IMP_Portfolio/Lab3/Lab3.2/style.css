@@ -1,0 +1,20 @@
+body {margin: 0;}
+
+p {
+  padding: 0.6em;
+  font-family: verdana;
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: justify;
+}
+
+input,
+button {
+  margin: auto;
+  display: inline;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1em;
+}
+
+.bloc { text-align: center;}

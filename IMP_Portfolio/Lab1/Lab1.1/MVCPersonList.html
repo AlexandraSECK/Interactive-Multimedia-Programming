@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <script src="ListPerson.js"></script>
+    <script src="ListModel.js"></script>
+    <script src="ViewController.js"></script>
+    <script src="../../nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../navbar.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Lab 1</title>
+  </head>
+  <header>
+    Assignment 1 : MVC Person List
+  </header>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="../../index.html">Home</a>
+      <a href="../../synthesis.html">Synthesis</a>
+      <div class="dropdown">
+        <button class="dropbtn">Assignments
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../../Lab2/questions.html">Lab 2</a>
+          <a href="../../Lab3/chat.html">Lab 3</a>
+          <a href="../../Lab4/Lab4.1/index.html">Lab 4</a>
+          <a href="../../Lab5/questions.html">Lab 5</a>
+          <a href="../../Lab6/index.html">Lab 6</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Lab 1
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href=../index.html>Questions</a>
+          <a href="../PersonList.html">PersonList</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <br>
+    Name:
+    <input id="nameInput" placeholder="Name" type="text"> </input>
+    <button onclick="addPerson()">Add Person</button>
+    <p id="list"></p>
+  </body>
+</html>

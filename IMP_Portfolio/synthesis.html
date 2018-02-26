@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <script src="nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="./navbar.css">
+    <title>Portfolio</title>
+    <style>
+      p{
+      padding: 0.6em;
+      text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Interactive Multimedia Programming Synthesis</header>
+    <div class="container">
+      <div class="topnav" id="myTopnav">
+        <a href="./index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">List of assignements
+          <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./Lab1/index.html">Lab 1</a>
+            <a href="./Lab2/questions.html">Lab 2</a>
+            <a href="./Lab3/chat.html">Lab 3</a>
+            <a href="./Lab4/Lab4.1/index.html">Lab 4</a>
+            <a href="./Lab5/questions.html">Lab 5</a>
+            <a href="./Lab6/index.html">Lab 6</a>
+          </div>
+        </div>
+        <a class="icon" href="javascript:void(0);" style="font-size:15px;"  onclick="myFunction()">&#9776;</a>
+      </div>
+      <h1> Portfolio Alexandra SECK</h1>
+      <p>Lab 1 :<br/>
+        The lab 1 went well, I had some difficulties with the MVC version of the Person List but I used what we did in class to do it.
+      <p>
+      <p>Lab 2 :<br/>
+        The lab 2 was a bit more difficult in particular the 2.2 because I had difficulties with my menu that couldn't reach the bottom of the page. I use media queries for the second exercise. I decided to keep the design of the page in the portfolio so I don't have to add my navigation bar and add media queries or anything. I based the design on the example in the assignment. For the last one, I change the CSS but there is no real differences between this version and the first one because there is not many elements in the first version and thus it was already responsive. However I put all the properties of size in em.<
+      <p>
+      <p>Lab 3:<br/>
+        The first exercise of the lab 3 was not too difficult because we had seen is class how websockets work. I had difficulties with the second exercise because I couldn't find how to store a person into the local storage, finally I created a string with a separator between each name and then when the page is loaded the string is split at each separator and a person is created with the name found. 
+        I had to make some research for the audio element because it was the first time I use audio element that are not already created, but I did not have too much issues with this exercise I noticed that when I put my portfolio in Heroku the chat did not work anymore I had to make modification into the code to make it work.
+      <p>
+      <p>Lab 4: <br/>
+        I found the lab 4 difficult because I never used canvas and I wasn't too familiar with mouse event. If the first exercise was not complicated. I took a lot of time with the second because I couldn't find how to move the line without writting it in the canvas. Finally a created an image with the canvas an each time the mouse move it clear the canvas and put an old image. For the game it wasn't too complicated and I manage to make it works in mobile but the didn't change the size of the square so it is very easy on mobile. The biggest issue I had in this lab was to find how to resize the canvas when the size of the screen change. Instead of using media queries I create a function which is called each time the window is resize and it changes the size of the canvas depending of the ize of the window.
+      <p>
+      <p>Lab 5: <br/>
+        The lab 5 permits me to learn how to use jQuery. However I do not put to much jQuery in my Person List because I don't find what to put to make the code better. I created a function for the click of the button and also I change some of the other function in jQuery but basically there is no real difference between the javaScript and jQuery version. For the second exercice, I tried first with the json file but I had the error that is in the assignment indication. I follow the indication for the jsonp and it works well. However it was a bit hard for me to understand correctly the meaning of the code and its how it works.
+      <p>
+      <p>Lab 6 :<br/>
+        For the Lab 6 is used a bootstrap found in internet to create the photo Wall. I choose the function search of flickr and decided to put only 25 images in the page. I had some issues with the size of the image because if I want that every image have the same size they are a bit deform but I decided to keep it like that.
+      <p>
+    </div>
+  </body>
+</html>
+
+

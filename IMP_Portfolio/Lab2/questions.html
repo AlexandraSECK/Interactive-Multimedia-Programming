@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <script src="../nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="../navbar.css">
+    <title>Lab 2</title>
+  </head>
+  <body>
+    <header>Assignment 2  : Questions</header>
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html">Home</a>
+      <a href="../synthesis.html">Synthesis</a>      
+      <div class="dropdown">
+        <button class="dropbtn">Assignments
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Lab1/index.html">Lab 1</a>
+          <a href="../Lab3/chat.html">Lab 3</a>
+          <a href="../Lab4/Lab4.1/index.html">Lab 4</a>
+          <a href="../Lab5/questions.html">Lab 5</a>
+          <a href="../Lab6/index.html">Lab 6</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Lab 2
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./Lab2.1/rwd.html">RWD 1</a>
+          <a href="./Lab2.2/rwd2.html">RWD 2</a>
+          <a href="./Lab2.3/PersonList.html">Person List</a>
+        </div>
+      </div>
+      <a class="icon" href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+    </div>
+    <h1> Questions :</h1>
+    <h2> 1. RWD </h2>
+    <p><span>Question 1:</span> What is the purpose of the RWD? Why it is used? How things are done before RWD? What is the difference?<br/></p>
+    <p><span>Answer 1:</span> The purpose is to have a Website with an adaptable size of screen and adaptable in every device. Before there were website for specified device. Ex: « iphone website ». The Difference in RWD each device not treated separately it the same website forevery device. <br/></p>
+    <p><span>Question 2:</span> How css media queries can help you building responsive web sites?<br/></p>
+    <p><span>Answer 2:</span> Media queries help to adapt the website according to the device and the size of the screen or other physical characteristics. <br/></p>
+    <p><span>Question 3:</span> Why to use em (font) based sizing for example margins?<br/></p>
+    <p><span>Answer 3:</span> Em is relative to the size of the font. Use em permits to have margins proportional to the size of the font and more adapted to the device (size).<br/></p>
+    <p><span>Question 4:</span> Article is already 7 years old, do we have any new technology which can be used to achieve same type of UI responsiveness as described in the article. Buzz words: (CSS Grid, Flexbox)<br/></p>
+    <p><span> Answer 4: </span>  Since 2009 it's possible to use Flexbox. It is usefull for responsive design because heights and the widths are flexible, it's possible to aligned elements or choose the space beetween elements. It helps to adapted the site to the size of the screen and it uses less code.
+      CSS grid permits to choose the order of the elements and to create a grid adapted to the space and so the size of the screen. The user can create a structure for their website and make it responsive easlily.<br/>
+    </p>
+    <h2> 2. RWD examples </h2>
+    <p>The screenshots of responsive websites can be found here: <a href="https://github.com/AlexandraSECK/Interactive-Multimedia-Programming/tree/screenshots/imglab2">Images Git</a><br/></p>
+    <h2> 3. RWD in practice </h2>
+    <p><span>Question: </span> How could you prevent user zooming the site on mobile?<br/></p>
+    <p><span>Answer: </span> It's possible to use this : <br/>
+      <span>&lt;meta name="viewport" content="max_width=480,initial-scale=1, maximum-scale=1" &gt; <br/></span>
+      It will prevent the user zooming because of the maximum scale that is equal to the initial scale. It seems to work only on mobile.
+    <h2> 4. Adding stuff </h2>
+    <p><span>Question:</span>  Can you say why you should use &lt;figure&gt;  in addition to standard &lt;img&gt;
+      elements?<br/>
+    </p>
+    <p><span>Answer: </span>
+      Figure is a unit of content it can be use with figcaption to mark up elements. It's possible to put multiple images into figure. It's an independant element, the interest is taht it can removed from the document without affected it oncontrary to img.
+    </p>
+  </body>
+</html>

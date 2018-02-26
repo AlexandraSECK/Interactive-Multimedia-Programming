@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="script.js"></script>
+    <script src="../../nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../../navbar.css">
+    <title>Lab 2</title>
+  </head>
+  <header>Assignment 2 : Person List</header>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="../../index.html">Home</a>
+        <a href="../../synthesis.html">Synthesis</a>
+      <div class="dropdown">
+        <button class="dropbtn">Assignments
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../../Lab1/index.html">Lab 1</a>
+          <a href="../../Lab3/chat.html">Lab 3</a>
+          <a href="../../Lab4/Lab4.1/index.html">Lab 4</a>
+          <a href="../../Lab5/questions.html">Lab 5</a>
+          <a href="../../Lab6/index.html">Lab 6</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Lab 2
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Lab2.1/rwd.html">RWD 1</a>
+          <a href="../Lab2.2/rwd2.html">RWD 2</a>
+          <a href="../questions.html">Questions</a>
+        </div>
+      </div>
+      <a class="icon" href="javascript:void(0);" style="font-size:15px;"  onclick="myFunction()">&#9776;</a>
+    </div>
+    <p> This is the responsive version of the Person List. The first version seemed already responsive probably because there is not a lot of elements in this page but I changed the CSS so there is nothing defined in pixel only in em.
+    </p>
+    <br/>
+    Name:
+    <input id="name" type="text" name="name" placeholder="name" >
+    <button onclick="addPerson()">Add Person</button>
+    <p id="list"> </p>
+  </body>
+</html>

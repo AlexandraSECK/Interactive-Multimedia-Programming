@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="websocket.js"></script>
+    <script src="../nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../navbar.css">
+    <title>Lab 3</title>
+  </head>
+  <body>
+    <header>Assignment 3 : Chat</header>
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html">Home</a>
+      <a href="../synthesis.html">Synthesis</a>
+      <div class="dropdown">
+        <button class="dropbtn">Assignments
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Lab1/index.html">Lab 1</a>
+          <a href="../Lab2/questions.html">Lab 2</a>
+          <a href="../Lab4/Lab4.1/index.html">Lab 4</a>
+          <a href="../Lab5/questions.html">Lab 5</a>
+          <a href="../Lab6/index.html">Lab 6</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Lab 3
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href=./Lab3.1/MVCPersonList.html>Local Storage</a>
+          <a href=./Lab3.2/audioElement.html>Audio element</a>
+        </div>
+      </div>
+      <a class="icon" href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div class="bloc">
+      <div id="chat" class="container"></div>
+      <br/>
+      <input id="mess" placeholder="Write your message here" type="text">
+      <button class="add" onclick="envoyer()">Send</button>
+      <div class="connect" id="connect"></div>
+      <p><span>Question: </span> What kind of
+        problems web sockets solve? In what kind of situations you should use them?
+      </p>
+      <p><span>Answer: </span>Web sockets solve problems of latency. Certains app for browser need to have a low latency (games,chat etc.). Use websocket permits to reduce it because it create a constant connection between the client and the server which make that send and receiving data is faster.</p>
+      <figure>
+        <img src="logo.png">
+        <figcaption>What happens if you send a message: ”LOGO”? Random text faces are sent</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
